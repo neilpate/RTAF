@@ -13,14 +13,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actors" Type="Folder">
 			<Item Name="Base Actor" Type="Folder">
-				<Item Name="Actor API.lvclass" Type="LVClass" URL="../Actors/Base Actor/API/Actor API.lvclass"/>
-				<Item Name="Actor.lvclass" Type="LVClass" URL="../Actors/Base Actor/Actor/Actor.lvclass"/>
+				<Item Name="Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Base Actor/API/Actor API.lvclass"/>
+				<Item Name="Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Base Actor/Actor/Actor.lvclass"/>
 			</Item>
 			<Item Name="Test" Type="Folder">
-				<Item Name="Test Actor API.lvclass" Type="LVClass" URL="../Actors/Test/API/Test Actor API.lvclass"/>
-				<Item Name="Test Actor.lvclass" Type="LVClass" URL="../Actors/Test/Actor/Test Actor.lvclass"/>
+				<Item Name="Test Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Test/API/Test Actor API.lvclass"/>
+				<Item Name="Test Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Test/Actor/Test Actor.lvclass"/>
 			</Item>
-			<Item Name="Actors Test.vi" Type="VI" URL="../Actors/Actors Test.vi"/>
+			<Item Name="Actors Test.vi" Type="VI" URL="../RTAF/Actors/Actors Test.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
