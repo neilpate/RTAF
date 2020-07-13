@@ -27,6 +27,15 @@
 	<Item Name="Test Actor API.ctl" Type="Class Private Data" URL="Test Actor API.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Get Count.vi" Type="VI" URL="../Get Count.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$[!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!N!!Q!&amp;1W^V&lt;H1!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!'":5:8.U)%&amp;D&gt;'^S)%&amp;133ZM&gt;G.M98.T!!!/6'6T&gt;#""9X2P=C""5%E!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
 	<Item Name="Set Count Behaviour.vi" Type="VI" URL="../Set Count Behaviour.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!7A$RWT%(L1!!!!)36'6T&gt;#""9X2P=CZM&gt;G.M98.T%U.P&gt;7ZU)%*F;'&amp;W;7^V=CZD&gt;'Q!+U!7!!-(5X2P=("F:!*6=!2%&lt;X&gt;O!!^$&lt;X6O&gt;#"#:7BB&gt;GFP&gt;8)!-E"Q!"Y!!"A76'6T&gt;#""9X2P=C""5%EO&lt;(:D&lt;'&amp;T=Q!!$F2F=X1A17.U&lt;X)A16"*!!"5!0!!$!!$!!1!"!!%!!1!"!!%!!1!"1!%!!9!"Q)!!(A!!!U)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!%!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
