@@ -93,63 +93,6 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Actors" Type="Folder">
-			<Item Name="Alarms Handler" Type="Folder">
-				<Item Name="Alarms Handler Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Alarms Handler/API/Alarms Handler Actor API.lvclass"/>
-				<Item Name="Alarms Handler Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Alarms Handler/Actor/Alarms Handler Actor.lvclass"/>
-			</Item>
-			<Item Name="Base Actor" Type="Folder">
-				<Item Name="Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Base Actor/API/Actor API.lvclass"/>
-				<Item Name="Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Base Actor/Actor/Actor.lvclass"/>
-				<Item Name="Sequencer.lvclass" Type="LVClass" URL="../RTAF/Actors/Base Actor/Sequencer/Sequencer.lvclass"/>
-			</Item>
-			<Item Name="Logger" Type="Folder">
-				<Item Name="Logger Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Logger/API/Logger Actor API.lvclass"/>
-				<Item Name="Logger Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Logger/Actor/Logger Actor.lvclass"/>
-			</Item>
-			<Item Name="Test" Type="Folder">
-				<Item Name="Test Actor API.lvclass" Type="LVClass" URL="../RTAF/Actors/Test/API/Test Actor API.lvclass"/>
-				<Item Name="Test Actor.lvclass" Type="LVClass" URL="../RTAF/Actors/Test/Actor/Test Actor.lvclass"/>
-			</Item>
-			<Item Name="Actors Test.vi" Type="VI" URL="../RTAF/Actors/Actors Test.vi"/>
-			<Item Name="RTAF Global References.vi" Type="VI" URL="../RTAF/Actors/RTAF Global References.vi"/>
-		</Item>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Controls" Type="Folder">
-				<Item Name="App Paths.ctl" Type="VI" URL="../RTAF/Utility/App Paths.ctl"/>
-			</Item>
-			<Item Name="Log" Type="Folder">
-				<Item Name="Log.lvclass" Type="LVClass" URL="../RTAF/Actors/Logger/Log/Log.lvclass"/>
-			</Item>
-			<Item Name="Math" Type="Folder">
-				<Item Name="Convert to percentage.vi" Type="VI" URL="../RTAF/Utility/Math/Convert to percentage.vi"/>
-			</Item>
-			<Item Name="String" Type="Folder">
-				<Item Name="Boolean to String.vi" Type="VI" URL="../RTAF/Utility/String/Boolean to String.vi"/>
-			</Item>
-			<Item Name="Time" Type="Folder">
-				<Item Name="Generate Date Time String.vi" Type="VI" URL="../RTAF/Utility/Time/Generate Date Time String.vi"/>
-				<Item Name="Relative Seconds.vi" Type="VI" URL="../RTAF/Utility/Time/Relative Seconds.vi"/>
-				<Item Name="Time Elapsed Since Last Call.vi" Type="VI" URL="../RTAF/Utility/Time/Time Elapsed Since Last Call.vi"/>
-				<Item Name="Wait.vi" Type="VI" URL="../RTAF/Utility/Time/Wait.vi"/>
-			</Item>
-			<Item Name="Variant" Type="Folder">
-				<Item Name="Convert Variant To Boolean Array.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To Boolean Array.vi"/>
-				<Item Name="Convert Variant To Boolean.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To Boolean.vi"/>
-				<Item Name="Convert Variant To Colour.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To Colour.vi"/>
-				<Item Name="Convert Variant To DBL.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To DBL.vi"/>
-				<Item Name="Convert Variant To Error.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To Error.vi"/>
-				<Item Name="Convert Variant To I32.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To I32.vi"/>
-				<Item Name="Convert Variant To SGL.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To SGL.vi"/>
-				<Item Name="Convert Variant To String.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To String.vi"/>
-				<Item Name="Convert Variant To U16.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To U16.vi"/>
-				<Item Name="Convert Variant To U32.vi" Type="VI" URL="../RTAF/Utility/Variant/Convert Variant To U32.vi"/>
-				<Item Name="Unflatten String To Variant.vi" Type="VI" URL="../RTAF/Utility/Variant/Unflatten String To Variant.vi"/>
-			</Item>
-			<Item Name="Clear Error.vi" Type="VI" URL="../RTAF/Utility/Clear Error.vi"/>
-			<Item Name="Exit LabVIEW.vi" Type="VI" URL="../RTAF/Utility/Exit LabVIEW.vi"/>
-			<Item Name="Get App Paths.vi" Type="VI" URL="../RTAF/Utility/Get App Paths.vi"/>
-		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -162,6 +105,7 @@ AddOutputFilter chunkFilter
 				<Property Name="crio.ModuleContainerType" Type="Str">crio.DAQModuleContainer</Property>
 			</Item>
 		</Item>
+		<Item Name="RTAF.lvlib" Type="Library" URL="../RTAF/RTAF.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
