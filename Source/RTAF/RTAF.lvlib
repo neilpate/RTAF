@@ -58,7 +58,6 @@
 			<Item Name="Unflatten String To Variant.vi" Type="VI" URL="../Utility/Variant/Unflatten String To Variant.vi"/>
 		</Item>
 		<Item Name="Clear Error.vi" Type="VI" URL="../Utility/Clear Error.vi"/>
-		<Item Name="Exit LabVIEW.vi" Type="VI" URL="../Utility/Exit LabVIEW.vi"/>
 		<Item Name="Get App Paths.vi" Type="VI" URL="../Utility/Get App Paths.vi"/>
 	</Item>
 </Library>
