@@ -18,6 +18,10 @@
 			<Item Name="Logger Actor API.lvclass" Type="LVClass" URL="../Actors/Logger/API/Logger Actor API.lvclass"/>
 			<Item Name="Logger Actor.lvclass" Type="LVClass" URL="../Actors/Logger/Actor/Logger Actor.lvclass"/>
 		</Item>
+		<Item Name="System Status" Type="Folder">
+			<Item Name="System Status Actor API.lvclass" Type="LVClass" URL="../Actors/System Status/API/System Status Actor API.lvclass"/>
+			<Item Name="System Status Actor.lvclass" Type="LVClass" URL="../Actors/System Status/Actor/System Status Actor.lvclass"/>
+		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Actor API.lvclass" Type="LVClass" URL="../Actors/Test/API/Test Actor API.lvclass"/>
 			<Item Name="Test Actor.lvclass" Type="LVClass" URL="../Actors/Test/Actor/Test Actor.lvclass"/>
